@@ -1,0 +1,14 @@
+[
+    {
+      "_id": "activity-1",
+      "iClassName": "fas fa-palette",
+      "title": "Arts & Culture",
+      "color": "orange"
+    },
+    {
+      "_id": "activity-2",
+      "iClassName": "fas fa-football-ball",
+      "title": "Sports & Fitness",
+      "color": "blue"
+    }
+  ]

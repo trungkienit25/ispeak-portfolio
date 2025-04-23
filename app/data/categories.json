@@ -1,0 +1,16 @@
+[
+    {
+      "_id": "category-1",
+      "icon": "fas fa-laptop-code",
+      "title": "Technology",
+      "desc": "Courses related to software development, AI, etc.",
+      "color": "light_blue"
+    },
+    {
+      "_id": "category-2",
+      "icon": "fas fa-palette",
+      "title": "Arts & Design",
+      "desc": "Explore creativity through various art forms.",
+      "color": "orange"
+    }
+  ]

@@ -1,0 +1,25 @@
+[
+  {
+    "_id": "course-1",
+    "imgSrc": {
+      "alt": "Image of a course",
+      "image": "/images/course-1.jpg"
+    },
+    "category": "Technology",
+    "price": 99,
+    "color": "blue",
+    "date": "Ongoing",
+    "title": "Introduction to React and Next.js",
+    "slug": "intro-react-nextjs",
+    "description": "Learn the fundamentals of React and Next.js for building modern web applications.",
+    "instructor": "John Smith",
+    "lessons": 15,
+    "rating": 4.5,
+    "students": 120,
+    "review": 45,
+    "instructorImg": {
+      "alt": "Image of instructor John Smith",
+      "image": "/images/instructor-1.jpg"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+    {
+      "_id": "testimonial-1",
+      "imgSrc": {
+        "alt": "Image of testimonial author Sarah Lee",
+        "image": "/images/testimonial-author-1.jpg"
+      },
+      "desc": "This platform has greatly helped me improve my skills!",
+      "name": "Sarah Lee",
+      "designation": "Student"
+    }
+  ]
