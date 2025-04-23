@@ -1,0 +1,506 @@
+[
+  {
+    "fields": [
+      {
+        "readOnly": true,
+        "hidden": true,
+        "name": "id",
+        "type": "number",
+        "title": "ID"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "description": "Upload a event picture",
+        "fields": [
+          {
+            "name": "alt",
+            "type": "string"
+          }
+        ],
+        "name": "imgSrc",
+        "type": "image",
+        "title": "Image Source"
+      },
+      {
+        "name": "category",
+        "type": "string"
+      },
+      {
+        "name": "location",
+        "type": "string"
+      },
+      {
+        "name": "time",
+        "type": "string"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "longTitle",
+        "type": "string"
+      },
+      {
+        "options": {
+          "source": "title"
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "custom"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "Add a custom slug for the URL or generate one from the name",
+        "name": "slug",
+        "type": "slug"
+      },
+      {
+        "name": "desc",
+        "type": "text",
+        "title": "Description"
+      },
+      {
+        "name": "organizer",
+        "type": "string"
+      },
+      {
+        "name": "price",
+        "type": "number"
+      },
+      {
+        "name": "color",
+        "type": "string"
+      }
+    ],
+    "name": "event",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "name": "color",
+        "type": "string"
+      },
+      {
+        "name": "question",
+        "type": "string"
+      },
+      {
+        "name": "answer",
+        "type": "string"
+      }
+    ],
+    "name": "faq",
+    "type": "document",
+    "title": "FAQ"
+  },
+  {
+    "fields": [
+      {
+        "options": {
+          "hotspot": true
+        },
+        "description": "Upload a work picture",
+        "fields": [
+          {
+            "name": "alt",
+            "type": "string"
+          }
+        ],
+        "name": "imgSrc",
+        "type": "image",
+        "title": "Image Source"
+      },
+      {
+        "name": "task",
+        "type": "string",
+        "title": "Task Name"
+      },
+      {
+        "name": "color",
+        "type": "string"
+      },
+      {
+        "name": "desc",
+        "type": "string",
+        "title": "Description"
+      }
+    ],
+    "name": "work",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "options": {
+          "hotspot": true
+        },
+        "description": "Upload a testimonial picture",
+        "fields": [
+          {
+            "name": "alt",
+            "type": "string"
+          }
+        ],
+        "name": "imgSrc",
+        "type": "image",
+        "title": "Image Source"
+      },
+      {
+        "name": "desc",
+        "type": "string",
+        "title": "Description"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "title": "Client/User Name"
+      },
+      {
+        "name": "designation",
+        "type": "string"
+      }
+    ],
+    "name": "testimonial",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "readOnly": true,
+        "hidden": true,
+        "name": "id",
+        "type": "number",
+        "title": "ID"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "description": "Upload a blog picture",
+        "fields": [
+          {
+            "name": "alt",
+            "type": "string"
+          }
+        ],
+        "name": "imgSrc",
+        "type": "image",
+        "title": "Image Source"
+      },
+      {
+        "name": "category",
+        "type": "string"
+      },
+      {
+        "description": "if colour is above single word separate them by '_'",
+        "name": "color",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "string"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "longTitle",
+        "type": "string"
+      },
+      {
+        "options": {
+          "source": "title"
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "custom"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "Add a custom slug for the URL or generate one from the name",
+        "name": "slug",
+        "type": "slug"
+      },
+      {
+        "name": "desc",
+        "type": "text",
+        "title": "Description"
+      },
+      {
+        "name": "author",
+        "type": "string"
+      }
+    ],
+    "name": "blog",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "readOnly": true,
+        "hidden": true,
+        "name": "id",
+        "type": "number",
+        "title": "ID"
+      },
+      {
+        "description": "font awesome class name",
+        "name": "iClassName",
+        "type": "string",
+        "title": "iClassName"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "desc",
+        "type": "text",
+        "title": "Description"
+      },
+      {
+        "description": "if colour is above single word separate them by '_'",
+        "name": "color",
+        "type": "string"
+      }
+    ],
+    "name": "service",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "readOnly": true,
+        "hidden": true,
+        "name": "id",
+        "type": "number",
+        "title": "ID"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "description": "Upload a course picture",
+        "fields": [
+          {
+            "name": "alt",
+            "type": "string"
+          }
+        ],
+        "name": "imgSrc",
+        "type": "image",
+        "title": "Image Source"
+      },
+      {
+        "name": "category",
+        "type": "string"
+      },
+      {
+        "name": "price",
+        "type": "number"
+      },
+      {
+        "description": "if colour is above single word separate them by '_'",
+        "name": "color",
+        "type": "string"
+      },
+      {
+        "name": "date",
+        "type": "string"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "options": {
+          "source": "title"
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "custom"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "Add a custom slug for the URL or generate one from the name",
+        "name": "slug",
+        "type": "slug"
+      },
+      {
+        "name": "description",
+        "type": "text"
+      },
+      {
+        "name": "instructor",
+        "type": "string",
+        "title": "instructor"
+      },
+      {
+        "name": "lessons",
+        "type": "number"
+      },
+      {
+        "name": "rating",
+        "type": "number"
+      },
+      {
+        "name": "students",
+        "type": "number"
+      },
+      {
+        "name": "review",
+        "type": "number"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "description": "Upload a instructor picture",
+        "fields": [
+          {
+            "name": "alt",
+            "type": "string"
+          }
+        ],
+        "name": "instructorImg",
+        "type": "image",
+        "title": "Instructor Image"
+      }
+    ],
+    "name": "course",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "readOnly": true,
+        "hidden": true,
+        "name": "id",
+        "type": "number",
+        "title": "ID"
+      },
+      {
+        "options": {
+          "hotspot": true
+        },
+        "description": "Upload a team picture",
+        "fields": [
+          {
+            "name": "alt",
+            "type": "string"
+          }
+        ],
+        "name": "imgSrc",
+        "type": "image",
+        "title": "Image Source"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "designation",
+        "type": "string"
+      },
+      {
+        "options": {
+          "source": "name"
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "custom"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "description": "Add a custom slug for the URL or generate one from the name",
+        "name": "slug",
+        "type": "slug"
+      },
+      {
+        "name": "about",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "type": "number"
+      }
+    ],
+    "name": "team",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "readOnly": true,
+        "hidden": true,
+        "name": "id",
+        "type": "number",
+        "title": "ID"
+      },
+      {
+        "description": "font awesome class name",
+        "name": "iClassName",
+        "type": "string",
+        "title": "iClassName"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "description": "if colour is above single word separate them by '_'",
+        "name": "color",
+        "type": "string"
+      }
+    ],
+    "name": "activity",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "description": "font awesome class name",
+        "name": "icon",
+        "type": "string",
+        "title": "icon"
+      },
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "desc",
+        "type": "text",
+        "title": "Description"
+      },
+      {
+        "description": "if colour is above single word separate them by '_'",
+        "name": "color",
+        "type": "string"
+      }
+    ],
+    "name": "category",
+    "type": "document"
+  }
+]

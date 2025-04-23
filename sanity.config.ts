@@ -6,7 +6,7 @@ export default defineConfig({
   name: 'default',
   title: 'Ispeak',
 
-  projectId: '1a142z34',
+  projectId: 'ot45kkke',
   dataset: 'production',
   basePath: "/admin",
   plugins: [deskTool()],

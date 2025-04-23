@@ -9,7 +9,7 @@ import { getCourse } from '@/sanity/sanity.query';
  
 export const metadata: Metadata = {
   title: "Ispeak Course Details",
-  description: "Developed by Azizur Rahman",
+  description: "Developed by trungkienit25",
 }
 const page = async({ params }: { params: { slug: string } }) => {
     const course: CourseType[] = await getCourse();

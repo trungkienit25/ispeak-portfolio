@@ -8,7 +8,7 @@ import { getBlog } from '@/sanity/sanity.query'
  
 export const metadata: Metadata = {
   title: "Ispeak Blog",
-  description: "Developed by Azizur Rahman",
+  description: "Developed by trungkienit25",
 }
 const page = async() => {
   const blogData: BlogType[] = await getBlog();

@@ -19,7 +19,7 @@ import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
   title: "Ispeak Home Page 1",
-  description: "Developed by Azizur Rahman",
+  description: "Developed by trungkienit25",
 }
 export default async function Home() {
   const faqData: FaqType[] = await getFaq();

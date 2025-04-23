@@ -7,7 +7,7 @@ import type { Metadata } from 'next'
 import React from 'react'
 export const metadata: Metadata = {
     title: "Ispeak Events",
-    description: "Developed by Azizur Rahman",
+    description: "Developed by trungkienit25",
   }
 const page = async () => {
   const event: EventType[] = await getEvent();

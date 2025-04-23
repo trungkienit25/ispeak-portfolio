@@ -19,7 +19,7 @@ import { getBlog, getCategory, getCourse, getEvent, getService, getTeam, getTest
 import { BlogType, CategoryType, CourseType, EventType, ServiceType, TeamType, TestimonialType } from '@/types';
 export const metadata: Metadata = {
     title: "Ispeak Home 2",
-    description: "Developed by Azizur Rahman",
+    description: "Developed by trungkienit25",
   }
 const page = async() => {
   const blogData: BlogType[] = await getBlog();

@@ -13,7 +13,7 @@ import { getActivity, getBlog, getCourse, getFaq, getService } from '@/sanity/sa
  
 export const metadata: Metadata = {
   title: "Ispeak About",
-  description: "Developed by Azizur Rahman",
+  description: "Developed by trungkienit25",
 }
 const page = async() => {
   const serviceData: ServiceType[] = await getService();

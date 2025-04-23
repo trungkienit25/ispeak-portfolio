@@ -6,7 +6,7 @@ import TermSection from '@/component/terms/TermSection'
 
 export const metadata: Metadata = {
     title: "Ispeak Terms And Condition",
-    description: "Developed by Azizur Rahman",
+    description: "Developed by trungkienit25",
   }
 const page = () => {
   return (

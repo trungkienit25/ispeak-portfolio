@@ -8,7 +8,7 @@ import { getFaq } from '@/sanity/sanity.query'
 
 export const metadata: Metadata = {
     title: "Ispeak FAQ",
-    description: "Developed by Azizur Rahman",
+    description: "Developed by trungkienit25",
   }
 const page = async() => {
   const faqData: FaqType[] = await getFaq();

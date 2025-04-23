@@ -6,7 +6,7 @@ import RegisterSection from '@/component/authentication/RegisterSection'
 
 export const metadata: Metadata = {
     title: "Ispeak Sign Up",
-    description: "Developed by Azizur Rahman",
+    description: "Developed by trungkienit25",
   }
 const page = () => {
   return (

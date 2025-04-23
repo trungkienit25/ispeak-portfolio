@@ -20,7 +20,7 @@ import { getActivity, getBlog, getCategory, getCourse, getTeam } from '@/sanity/
 
 export const metadata: Metadata = {
     title: "Ispeak Home 3",
-    description: "Developed by Azizur Rahman",
+    description: "Developed by trungkienit25",
   }
 const page = async() => {
   const teamData: TeamType[] = await getTeam();

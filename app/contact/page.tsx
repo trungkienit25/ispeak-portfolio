@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
   title: "Ispeak Contact",
-  description: "Developed by Azizur Rahman",
+  description: "Developed by trungkienit25",
 }
 const page = () => {
   return (
