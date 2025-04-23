@@ -1,0 +1,16 @@
+[
+    {
+      "_id": "service-1",
+      "iClassName": "fas fa-headset",
+      "title": "24/7 Online Support",
+      "desc": "Get help anytime with our dedicated online support team.",
+      "color": "blue"
+    },
+    {
+      "_id": "service-2",
+      "iClassName": "fas fa-certificate",
+      "title": "Industry Recognized Certificates",
+      "desc": "Earn certificates that are valued by employers.",
+      "color": "green"
+    }
+  ]

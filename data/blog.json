@@ -1,0 +1,17 @@
+[
+    {
+      "_id": "blog-1",
+      "imgSrc": {
+        "alt": "Image of a blog post",
+        "image": "/images/blog-post-1.jpg"
+      },
+      "category": "Education",
+      "color": "green",
+      "date": "2023-10-27",
+      "title": "The Importance of Online Learning",
+      "longTitle": "Exploring the Benefits and Challenges of Online Education",
+      "slug": "the-importance-of-online-learning",
+      "desc": "Online learning has become increasingly popular...",
+      "author": "Jane Doe"
+    }
+  ]

@@ -1,0 +1,14 @@
+[
+    {
+      "_id": "team-1",
+      "imgSrc": {
+        "alt": "Image of team member John Davis",
+        "image": "/images/team-member-1.jpg"
+      },
+      "name": "John Davis",
+      "designation": "Lead Instructor",
+      "slug": "john-davis",
+      "about": "John is an experienced instructor with a passion for teaching.",
+      "phone": 1234567890
+    }
+  ]

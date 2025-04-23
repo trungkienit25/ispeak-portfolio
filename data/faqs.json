@@ -1,0 +1,14 @@
+[
+    {
+      "_id": "faq-1",
+      "color": "blue",
+      "question": "How can I enroll in a course?",
+      "answer": "You can enroll by visiting the course page and clicking the 'Enroll Now' button."
+    },
+    {
+      "_id": "faq-2",
+      "color": "green",
+      "question": "Are the courses self-paced?",
+      "answer": "Yes, most of our courses are self-paced, allowing you to learn at your own speed."
+    }
+  ]

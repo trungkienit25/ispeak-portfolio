@@ -1,0 +1,12 @@
+[
+    {
+      "_id": "work-1",
+      "imgSrc": {
+        "alt": "Image of a completed project",
+        "image": "/images/project-1.jpg"
+      },
+      "task": "Website Design",
+      "color": "green",
+      "desc": "Designed and developed a modern website for a client."
+    }
+  ]

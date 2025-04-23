@@ -1,0 +1,19 @@
+[
+    {
+      "_id": "event-1",
+      "imgSrc": {
+        "alt": "Image of an event",
+        "image": "/images/event-1.jpg"
+      },
+      "category": "Workshop",
+      "location": "Online",
+      "time": "10:00 AM",
+      "title": "Web Development Workshop 2024",
+      "longTitle": "Hands-on Workshop: Building Responsive Websites",
+      "slug": "web-dev-workshop-2024",
+      "desc": "Join us for an interactive workshop on responsive web development.",
+      "organizer": "Eduor Events",
+      "price": 25,
+      "color": "orange"
+    }
+  ]
